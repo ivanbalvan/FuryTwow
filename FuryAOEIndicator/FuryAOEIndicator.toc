@@ -1,0 +1,4 @@
+## Interface: 11200
+## Title: Fury AOE Indicator
+## Notes: Shows current Fury Warrior AOE mode state
+FuryAOEIndicator.lua
