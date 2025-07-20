@@ -2508,9 +2508,6 @@ function Fury_OnEvent(event)
     if event == "VARIABLES_LOADED" then
         -- Check for settings
         Fury_Configuration_Init()
-		Fury_InitDistance()
-		Fury_ScanTalents()
-		Print("Fury: Talents and distance initialized on login/reload.")
 
     elseif (event == "CHAT_MSG_COMBAT_SELF_MISSES"
       or event == "CHAT_MSG_SPELL_SELF_DAMAGE"
